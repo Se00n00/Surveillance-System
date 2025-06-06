@@ -1,0 +1,2 @@
+class FeatureEmbeddings:
+    pass
