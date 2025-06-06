@@ -1,2 +1,0 @@
-class FaceExtractions:
-    pass
