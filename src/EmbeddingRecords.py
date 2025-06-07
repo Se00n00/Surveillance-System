@@ -1,2 +1,0 @@
-class EmbeddingRecords:
-    pass
