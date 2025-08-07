@@ -1,0 +1,21 @@
+<main class="flex flex-col h-screen">
+  
+  <div class="bg-black/[0.8]  m-1 sm:m-5 flex-1 border border-black rounded-xl"></div>
+  
+  <div class="flex-[0.2] lg:flex-[0.15] m-1 sm:m-5 mt-0 sm:mt-0 flex gap-1 sm:gap-5 overflow-scroll">
+    @for (item of items; track $index) {
+      <div class="bg-black/[0.8] rounded-xl w-20"></div>
+    }
+    
+  </div>
+</main>
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+<router-outlet />

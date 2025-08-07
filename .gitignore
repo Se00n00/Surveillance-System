@@ -1,1 +1,10 @@
+.venv
 models/
+backend/.env
+
+frontend/node_modules
+.vscode
+
+# Miscellaneous
+/.angular/cache
+/Trainer/*.jpg
